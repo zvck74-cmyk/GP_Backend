@@ -38,7 +38,7 @@ def download_models():
 
         url = f"https://drive.google.com/uc?id={file_id}"
         print(f"Downloading {name}...")
-        gdown.download(url, path, quiet=False,fuzzy=True)
+        gdown.download(url, path, quiet=False)
 
 CLASS_INDICES = {
     'Apple___Apple_scab': 0, 'Apple___Black_rot': 1, 'Apple___Cedar_apple_rust': 2, 'Apple___healthy': 3,
